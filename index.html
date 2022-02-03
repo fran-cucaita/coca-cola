@@ -16,7 +16,7 @@
     <header>
         <div class="container">
             <a href="index.html">
-                <img src="img/logo.svg">
+                <img src="img/logo.svg" class="logo">
             </a>
             <nav>
                 <a href="#inicio">Inicio</a>
@@ -28,14 +28,182 @@
         </div>
     </header>
     <main>
-        <section id="inicio"></section>
-        <section id="nosotros"></section>
-        <section id="servicios"></section>
-        <section id="galeria"></section>
-        <section id="contactenos"></section>
+        <section id="inicio">
+            <img src="img/bannerprincipal.jpg">
+            <div class="bloque-inicio">
+                <h1>Bienvenidos a Coca-cola</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#nosotros" class="boton">ver mas</a>
+            </div>
+        </section>
+        <section id="nosotros">
+            <div class="container">
+                <p>In aliquet viverra lorem, ut volutpat orci pretium vel. Vestibulum ut velit eu ex placerat mollis ac vitae dolor. Proin non neque tortor. In semper neque et blandit mattis. Maecenas nec scelerisque purus, vel iaculis lorem. Duis vitae
+                    commodo erat.
+                </p>
+            </div>
+        </section>
+        <section id="servicios">
+            <div class="container">
+                <div class="row">
+                    <div class="columna columna-33">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio">
+                                <img src="img/servicio1.jpg" alt="servicio1">
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h3>Servicio 1</h3>
+                                <p>Praesent tincidunt congue justo mollis dictum. Etiam finibus magna quis arcu tincidunt, quis blandit diam vehicula. Aenean egestas mauris id blandit pharetra. Suspendisse in bibendum orci. Nullam condimentum lorem eu eros
+                                    mattis, in vehicula mi vulputate. Nullam consectetur risus et facilisis iaculis. Vestibulum sodales odio ut felis iaculis cursus sed nec turpis. Nam nec convallis mi, vel tempor erat.</p>
+                                <a href="#" class="boton">Ver mas</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna columna-33">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio">
+                                <img src="img/servicio2.jpg" alt="servicio2">
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h3>Servicio 2</h3>
+                                <p>Praesent tincidunt congue justo mollis dictum. Etiam finibus magna quis arcu tincidunt, quis blandit diam vehicula. Aenean egestas mauris id blandit pharetra. Suspendisse in bibendum orci. Nullam condimentum lorem eu eros
+                                    mattis, in vehicula mi vulputate. Nullam consectetur risus et facilisis iaculis. Vestibulum sodales odio ut felis iaculis cursus sed nec turpis. Nam nec convallis mi, vel tempor erat.</p>
+                                <a href="#" class="boton">Ver mas</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna columna-33">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio">
+                                <img src="img/servicio3.jpg" alt="servicio3">
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h3>Servicio 3</h3>
+                                <p>Praesent tincidunt congue justo mollis dictum. Etiam finibus magna quis arcu tincidunt, quis blandit diam vehicula. Aenean egestas mauris id blandit pharetra. Suspendisse in bibendum orci. Nullam condimentum lorem eu eros
+                                    mattis, in vehicula mi vulputate. Nullam consectetur risus et facilisis iaculis. Vestibulum sodales odio ut felis iaculis cursus sed nec turpis. Nam nec convallis mi, vel tempor erat.</p>
+                                <a href="#" class="boton">Ver mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="columna columna-33">
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio1.jpg">
+                            <h4>Imagen 1</h4>
+                        </div>
+                    </div>
+                    <div class="columna columna-33">
+
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio2.jpg">
+                            <h4>Imagen 2</h4>
+                        </div>
+                    </div>
+                    <div class="columna columna-33">
+
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio3.jpg">
+                            <h4>Imagen 3</h4>
+                        </div>
+                    </div>
+                    <div class="columna columna-33">
+
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio1.jpg">
+                            <h4>Imagen 4</h4>
+                        </div>
+                    </div>
+                    <div class="columna columna-33">
+
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio2.jpg">
+                            <h4>Imagen 5</h4>
+                        </div>
+                    </div>
+                    <div class="columna columna-33">
+
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio3.jpg">
+                            <h4>Imagen 6</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="contactenos">
+            <div class="container">
+                <div class="row">
+                    <div class="columna columna-50">
+                        <form action=" " method="post">
+                            <div class="form-block">
+                                <input type="text" name="nombre" class="form-contol">
+                            </div>
+                            <div class="form-block">
+                                <input type="email" name="email" class="form-contol">
+                            </div>
+                            <div class="form-block">
+                                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="form-block">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <iframe width="520" height="400" frameborder="0" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20+(argentina)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </section>
     </main>
     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="columna columna25">
+                    <img src="img/logo-blanco.png" alt="logo">
+                    <p>In aliquet viverra lorem, ut volutpat orci pretium vel. Vestibulum ut velit eu ex placerat mollis ac vitae dolor.</p>
+                </div>
+                <div class="columna columna25">
+                    <h3>Temas relacionados</h3>
+                    <ul>
+                        <li><a href="#">Tema 1</a></li>
+                        <li><a href="#">Tema 2</a></li>
+                        <li><a href="#">Tema 3</a></li>
+                        <li><a href="#">Tema 4</a></li>
+                    </ul>
+                </div>
+                <div class="columna columna25">
+                    <h3>Datos de contacto</h3>
+                    <ul>
+                        <li>Cocacola@gmail.com</li>
+                        <li>+54 11 4321 1234</li>
+                        <li>Av falsa 1234 <br>Buenos Aires-Ar</li>
 
+                    </ul>
+                </div>
+                <div class="columna columna25">
+                    <h3>Redes sociales</h3>
+                    <ul>
+                        <li><a href="#"><i></i></a></li>
+                        <li><a href="#"><i></i></a></li>
+                        <li><a href="#"><i></i></a></li>
+                        <li><a href="#"><i></i></a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="barra-footer">
+            &copy; Derechos reservados
+
+        </div>
     </footer>
 </body>
 
