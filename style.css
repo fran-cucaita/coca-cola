@@ -36,10 +36,55 @@ header .container .logo {
     width: 100px;
 }
 
+footer.seccion {
+    background-color: black;
+    color: white;
+    padding-bottom: 0;
+}
+
+footer .barra-footer {
+    background-color: gray;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer .logo-footer {
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .redes {
+    font-size: 30px;
+    display: flex;
+}
+
+footer .redes a {
+    padding: 0 5px;
+}
+
 .boton {
     text-align: center;
     text-decoration: none;
     padding: 16px 20px;
+    height: 100%;
 }
 
 .boton.boton-rojo {
@@ -62,9 +107,10 @@ header .container .logo {
 .boton.boton-negro {
     background-color: black;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     border-radius: 5px;
+    height: 60px;
 }
 
 .boton.boton-negro:hover {
@@ -122,6 +168,10 @@ header .container .logo {
 
 .columna {
     padding: 0 16px;
+}
+
+.columna-25 {
+    width: 25%;
 }
 
 .columna-33 {
@@ -253,23 +303,17 @@ header .container .logo {
     margin: 20px;
 }
 
-#contactenos form .form-block {
-    width: 100%;
-    margin-bottom: 5px;
-}
-
 #contactenos form .form-block input {
     width: 100%;
     margin-bottom: 5px;
+    padding: 5px;
 }
 
-#contactenos form .form-block .form-control {
+#contactenos form .form-block.bloque-ultimo {
     display: block;
-    height: 40px;
+    height: 50px;
     font-size: 16px;
-    border: 1px solid gray;
     width: 100%;
-    padding: 5px 10px;
 }
 
 #contactenos form .form-block textarea {
@@ -278,9 +322,10 @@ header .container .logo {
     font-size: 16px;
     border: 1px solid gray;
     width: 100%;
-    padding: 5px 10px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
 }
 
-#contactenos form .form-block.bloque-ultimo {
-    margin-bottom: 0%;
+#contactenos form .form-block .bloque-ultimo {
+    margin-bottom: 10%;
 }
